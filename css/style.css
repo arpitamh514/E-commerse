@@ -1,0 +1,159 @@
+body{
+margin: 0;
+padding: 0;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root{
+    --my-bg-color: blue;
+}
+header{
+    height: 58px;
+    background-color:var(--my-bg-color);
+    color: white;
+    /* border: 2px solid red; */
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h2{
+    /* width: 55px; */
+    padding: 0 25px;
+    font-family: 'Lato', sans-serif;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+nav ul li a:hover{
+    color: rgb(210, 175, 241);
+    font-weight: bold;
+}
+
+ul li{
+    list-style-type: none;
+    padding: 0 23px;
+}
+.search{
+    display: flex;
+    align-items: center;
+
+}
+.search input{
+    width: 490px;
+    height: 28px ;
+    border-radius: 2px;
+    margin: 0 12px 0 15px ;
+    padding: 0 12px;
+    border: 1px solid white;
+}
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+/* .container{
+    min-height: calc(100vh - 58px - 12vh);
+} */
+
+
+
+
+   
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+   
+}
+.top img {
+    display: flex;
+    justify-content: center;
+
+    margin: 30px 35px 0 35px;
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+}
+.top a{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+.top a:hover{
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.topName{
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(238, 243, 244);
+   width: 100vw; 
+    margin-top: 150px;
+}
+.container img{
+    width: 90vw;
+    margin:10px 75px;
+    height: 450px;
+}
+.container-1{
+    display: flex;
+    
+}
+.card{
+    text-align: center;
+}
+.card p{
+    color:green;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    margin: 10px 30px;
+}
+.card img:hover{
+    width: 210px;
+    height: 210px;
+}
+.offer{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.offer button{
+    background-color: var(--my-bg-color);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 80px;
+    height: 30px;
+}
+.offer button:hover{
+    background-color: rgb(110, 49, 167);
+    font-weight: bolder;
+}
+footer{
+    height: 10vh;
+    background-color: var(--my-bg-color);
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+
